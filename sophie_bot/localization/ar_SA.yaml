@@ -476,62 +476,62 @@ STRINGS:
     #Exporting
     started_exporting: بدأ التصدير! لذا فلتنتظر...
     export_done: صُدِرَ من <b>{chat_name}</b>!
-    exports_locked: إنتظر السماح بالتصدير ريثما تنتهي المهلة %s!
+    exports_locked: إنتظر مهلة %s قبل التصدير مجدداً!
     #Importing
     invalid_file: "ملفٌ تالف/لا يصلُح"
-    send_import_file: أرسل ملف التكوين!
+    send_import_file: أرسل ملف التكوين لإستيراده!
     rpl_to_file: فلترد على ملفٍ ما!
     big_file: ملف تخطى 50MB لذا لن يُقبل!
     started_importing: بدأ الاستيراد! ولتنتظر...
     bad_file: ملف سيئ! توقع <code>'عام'</code> عمود.
-    file_version_so_new: إصدار الملف المصدَّر أحدث مما يدعمه صوفي حالياً!
-    imports_locked: الرجاء الانتظار %s حتى استخدام الواردات مرة أخرى!
-    import_done: تم الاستيراد!
+    file_version_so_new: هذا الملف المُصدَّر حديث أكثر مما يمكن لصوفي دعمه حالياً!
+    imports_locked: إنتظر مهلة%s قبل الإستيراد مجدداً!
+    import_done: إستُوردَّ!
   restrictions:
-    user_not_in_chat: المستخدم ليس في هذه المحادثة!
+    user_not_in_chat: مستخدمنا خارج محادثتنا!
     #Kicks
-    kick_sophie: بدلاً من محاولة طردي يمكنك قضاء وقتك بشكل أفضل. هذا ممل فقط.
-    kick_admin: ليس من الأفضل التفكير في طرد المدير.
-    kick_self: إذا أردت أن تركل نفسك - فقط اترك هذه المحادثة. أنا لا أراك بدلاً من النظر إلى هذه المحاولات المشؤومة لمعاقبة النفس.
-    user_kicked: "{user} تم طرده من قبل {admin} في {chat_name}."
+    kick_sophie: ما الذي أصابك، أتحاول طردي بإستخدام أوامري! فلتقم بشئ أفضل عوض ذلك.
+    kick_admin: لا شكراً،لن أتورط في أشياء أكبر مني.
+    kick_self: إن كنت تريد طرد نفسك فقط فلماذا تقحمني معك في الأمر، هيا هيا الباب مفتوح والأمر مشروح.
+    user_kicked: "{user} طردهُ المتوحش {admin} في {chat_name}."
     #Mutes
-    mute_sophie: في الواقع، سأكون سعيدة بإغلاقك بدلاً من ذلك.
-    mute_admin: إذا كنت تعتقد أنه يمكنك إغلاق المشرف، فأنت على خطأ!
-    mute_self: إذا أردت أن تركل نفسك - فقط اترك هذه المحادثة. أنا لا أراك بدلاً من النظر إلى هذه المحاولات المشؤومة لمعاقبة النفس.
-    user_muted: "{user} تم كتم الصوت بواسطة {admin} في {chat_name}."
-    unmute_sophie: في الواقع، أنا لست مكتوما.
-    unmute_admin: هاها لا، حاول كتم اسمه أولاً!
-    unmute_self: هل يجب علي كتم صوتك أولاً؟
-    user_unmuted: "تم إلغاء كتم {user} بواسطة {admin} في {chat_name}."
+    mute_sophie: صراحة، سأسعد بإخراسك عوضَ ذلك.
+    mute_admin: من تظن نفسك لتُخرِسَ مشرفاً، فكر مجدداً!
+    mute_self: كان بمقدورك مغادرتنا عوضَ كتم نفسك، لا يهم، من التالي.
+    user_muted: "{user} كتمهُ المتوحش {admin} في {chat_name}."
+    unmute_sophie: صراحةَ، أنا لست مكتوما.
+    unmute_admin: ههه لا، هلا حاولت كتمه أولاً!
+    unmute_self: أيجب علي كتمكَ أولاً؟
+    user_unmuted: "أُلغي كتم {user} من {admin} في {chat_name}."
     #Bans
-    ban_sophie: لا، لن أفعل ذلك! اطلب من منشئ الدردشة أن يفعلها!
-    ban_admin: هاها، دعونا <code>/demote</code> أولاً.
-    ban_self: لماذا تحاول حظر نفسك؟
-    user_banned: "{user} تم حظره من قبل {admin} في {chat_name}."
-    unban_sophie: في الواقع، أنا لست محظورة.
-    unban_admin: هاها لا، حاول حظره أولاً!
-    unban_self: هل يجب أن أمنعك أولاً؟
-    user_unband: "{user} تم فك حظره من قبل {admin} في {chat_name}."
+    ban_sophie: أجننت! تطلب مني شيئاً كهذا! فليفعلها المالك إذا!
+    ban_admin: ههه، دعونا نُنزل مرتبته <code>/demote</code> أولاً.
+    ban_self: إطلب ذلك من المشرف الخارق وإبتعد عني؟
+    user_banned: "{user} حظره المتوحش {admin} في {chat_name}."
+    unban_sophie: صراحةَ، أنا لست محظورة.
+    unban_admin: ههه لا، هلا حاولت حظره أولاً!
+    unban_self: أيجب أن أنفيكَ أولاً؟
+    user_unband: "{user} فُكَ حظره من {admin} في {chat_name}."
     invalid_time: وقت غير صالح!
-    enter_time: الرجاء إضافة وقت!
+    enter_time: هلا حددتَ وقتاً!
     on_time: "\nمن أجل <code>%s</code>"
     reason: "\nالسبب: <code>%s</code>"
-    purge: "\nخلال 5 ثوان سيتم تنظيف الرسائل!"
-    filter_title_ban: حظر المستخدم
+    purge: "\nستُطهر الرسائل خلال خمس ثوانٍ!"
+    filter_title_ban: إحظر المستخدم
     filter_action_rsn: <code>إجراء الفلتر الآلي!</code>
-    filtr_ban_success: '%s حظر %s ل %s'
-    filtr_mute_success: '%s كتم %s لـ %s'
+    filtr_ban_success: '%s حُظِرَ %s لــ %s'
+    filtr_mute_success: '%s كُتِمَ %s لـ %s'
     filtr_tmute_success: |
-      %s تم كتم %s ل %s
-      السبب هو %s
-    time_setup_start: الرجاء إرسال الوقت!
+      %s كُتِمَ %s لـ %s
+      والسبب← %s
+    time_setup_start: حدد لي وقتاً!
     filtr_tban_success: |
-      %s حظر %s ل %s
-      السبب هو %s
-    filter_title_tmute: كتم صوت المستخدم
-    filter_title_mute: كتم صوت المستخدم
-    filter_title_tban: حظر المستخدم
-    filter_title_kick: طرد المستخدم
+      %s حُظِرَ %s لـ %s
+      والسبب← %s
+    filter_title_tmute: إكتم المستخدم بمهلة زمنية
+    filter_title_mute: إكتم المستخدم
+    filter_title_tban: إحظر المستخدم بمهلة زمنية
+    filter_title_kick: إطرد المستخدم
   rules:
     #Set
     saved: تم حفظ القواعد في <b>%s</b>
