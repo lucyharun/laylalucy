@@ -5,7 +5,7 @@ language_info:
 STRINGS:
   notes:
     #/save
-    note_saved: "🗒 Заметка <code>{note_name}</code> сохранена в <b>{chat_title}</b>!"
+    note_saved: "🗒 Заметка <code>{имя_заметки}</code> сохранена в <b>{chat_title}</b>!"
     note_updated: "🗒 Заметка <code>{note_name}</code> обновлена в <b>{chat_title}</b>!"
     you_can_get_note: "\nТы можешь получить эту заметку, используя <code>/get {note_name}</code>, или <code>#{note_name}</code>"
     #Translator note: please keep sure that you don't have space in the end of string
